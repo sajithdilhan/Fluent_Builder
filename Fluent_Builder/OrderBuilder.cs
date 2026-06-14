@@ -1,4 +1,6 @@
-﻿public class OrderBuilder
+﻿namespace Fluent_Builder;
+
+public class OrderBuilder
 {
     private int _orderId { get; set; }
     private DateTime _createdDate { get; set; }
